@@ -1,0 +1,104 @@
+<window type="generic" width="400" height="300" bgcolor="white" duration="51">
+
+<font face="Arial" color="black">
+	<pos x="0" y="220" />
+	<a href="command:pause()" target="_player">Pause</a> - <a href="command:play()" target="_player">Play</a> - 
+	<a href="command:seek(0:00.0)" target="_player">Restart</a>
+</font>
+
+<font face="Arial" size="+2" color="black">
+	<pos x="0" y="10" />
+	<time begin="1" />
+	<u>Nicolas.NET International :: Networking Humanity.</u>
+</font>
+
+<font face="Arial" size="+1" color="black">
+	
+<font face="Arial" size="+1" color="black">
+	<pos x="0" y="60" />
+	<time begin="3" end="9" />
+	<b>Welcome to our official site!</b>
+</font>
+
+<pos x="0" y="90" />
+<time begin="5" end="9" />
+Here, we have multiple departments...
+
+<font face="Arial" size="+1" color="black">
+	<pos x="0" y="60" />
+	<time begin="9" end="19" />
+	<b>All catering for any of your needs.</b>
+</font>
+
+<pos x="0" y="90" />
+<time begin="11" end="19" />
+From holistic education...
+
+<pos x="0" y="110" />
+<time begin="13" end="19" />
+... to photography, multimedia, and arts...
+
+<pos x="0" y="130" />
+<time begin="15" end="19" />
+... to social life and well being.
+
+<font face="Arial" size="+1" color="black">	
+	<pos x="0" y="60" />
+	<time begin="19" end="29" />
+	<b>Some of our departments...</b>
+</font>
+
+<pos x="0" y="90" />
+<time begin="21" end="29" />
+Nicolas.NET :: Multimedia.
+
+<pos x="0" y="110" />
+<time begin="23" end="29" />
+Nicolas.NET :: Photography.
+
+<pos x="0" y="130" />
+<time begin="25" end="29" />
+Coming very soon, Nicolas.NET :: Architecture.
+
+<font face="Arial" size="+1" color="black">
+	<pos x="0" y="60" />
+	<time begin="29" end="39" />
+	<b>Future plans...</b>
+</font>
+
+<pos x="0" y="90" />
+<time begin="31" end="39" />
+Big time merger with a creative arts and crafts company.
+
+<pos x="0" y="130" />
+<time begin="33" end="39" />
+Expand more into the globe.
+
+<pos x="0" y="150" />
+<time begin="35" end="39" />
+Adopting the latest in technological advancements.
+
+<font face="Arial" size="+1" color="black">
+	<pos x="0" y="60" />
+	<time begin="39" end="51" />
+	<b>Employment...</b>
+</font>
+
+<pos x="0" y="90" />
+<time begin="41" end="51" />
+Opportunities abound!
+
+<pos x="0" y="110" />
+<time begin="43" end="51" />
+No fuss.
+	
+<pos x="0" y="130" />
+<time begin="45" end="51" />
+Fun, casual, and holistic work environment.
+
+<pos x="0" y="150" />
+<time begin="47" end="51" />
+Telecommuters encouraged.
+
+</font>
+</window>

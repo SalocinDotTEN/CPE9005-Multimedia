@@ -1,0 +1,25 @@
+<imfl>
+   <head
+      bitrate="40000"
+      timeformat="milliseconds"
+      width="500"
+      height="400"
+      background-color="#000000"
+      duration="44000"
+   />
+
+   <!-- Picture source files:                                                    -->
+
+   <image handle="1" name="MMRealPix1.jpg"/>
+   <image handle="2" name="MMRealPix2.jpg"/>
+   <image handle="3" name="MMRealPix3.jpg"/>
+
+   <!-- Presentation sequence:                                                   -->
+
+   <fill start="0" color="black"/>
+   <fadein start="2000" duration="3000" target="1"/>
+   <crossfade start="17000" duration="5000" target="2"/>
+   <crossfade start="35000" duration="5000" target="3"/>
+   <fadeout start="40000" duration="3000" color="black"/>
+
+</imfl>

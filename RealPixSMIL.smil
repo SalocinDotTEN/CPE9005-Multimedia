@@ -1,0 +1,16 @@
+<smil xmlns:cv="http://features.real.com/systemComponent">
+	<head>
+		<meta name="title" content="Nicolas.NET Photography Sample Work Slideshow." />
+		<meta name="author" content="Nicolas.NET :: Imaging." />
+		<meta name="copyright" content="©2005 Nicolas.NET International." />
+		<layout type="text/smil-basic-layout">
+			<region id="ImageChannel1" title="ImageChannel1" left="0" top="0" height="800" width="600" end="90s"/>
+		</layout>
+	</head>
+	<body>
+		<par title="Nicolas.NET Photography Sample Work Slideshow." author="Nicolas.NET :: Imaging." copyright="©2005 Nicolas.NET International.">
+			<textstream src="RealPixBGMusic.rm" id="Soundtrack" title="Background Music." repeat="3"/>
+			<textstream src="RealPixPresentation.rp" id="Slides" region="ImageChannel1" title="Nicolas.NET Photography Sample Work Slideshow."/>
+		</par>
+	</body>
+</smil>

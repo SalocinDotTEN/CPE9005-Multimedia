@@ -1,0 +1,31 @@
+<imfl>
+   <head
+      bitrate="40000"
+      timeformat="milliseconds"
+      width="800"
+      height="600"
+      background-color="#000000"
+      duration="83000"
+   />   
+
+   <!-- Picture source files... -->
+
+   <image handle="1" name="RealPic01.jpg"/>
+   <image handle="2" name="RealPic03.jpg"/>
+   <image handle="3" name="RealPic04.jpg"/>
+   <image handle="4" name="RealPic05.jpg"/>
+   <image handle="5" name="RealPic02.jpg"/>
+
+   <!-- Presentation sequence... -->
+
+   <fill start="0" color="black"/>
+   <fadein start="3000" duration="5000" target="1"/>
+   <crossfade start="18000" duration="3000" target="2"/>
+   <viewchange start="22000" duration="3000" srcx="400" srcy="300" srcw="100" srch="200"/>
+   <wipe type="normal" direction="right" start="36000" duration="3000" target="3"/>
+   <wipe type="normal" direction="left" start="49000" duration="3000" target="4"/>
+   <viewchange start="53000" duration="3000" srcx="400" srcy="300" srcw="100" srch="200"/>
+   <wipe type="normal" direction="down" start="62000" duration="3000" target="5"/>
+   <fadeout start="75000" duration="5000" color="black"/>
+
+</imfl>

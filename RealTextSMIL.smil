@@ -1,0 +1,16 @@
+<smil>
+	<head>
+		<meta name="title" content="Information about our company, RealText Presentation." />
+		<meta name="author" content="Nicolas.NET International." />
+		<meta name="copyright" content="©2005" />
+		<layout type="text/smil-basic-layout">
+			<region id="TextChannel1" title="TextChannel1" left="30" top="30" height="250" width="450" background-color="black" fit="hidden"/>
+		</layout>
+	</head>
+	<body>
+		<par title="Information about our company, RealText Presentation." author="Nicolas.NET International." copyright="©2005">
+			<text src="RealText01.rt" id="RealText" region="TextChannel1"/>
+			<audio src="RealTextST0.rm" id="SoundTrack" title="SoundTrack" repeat="2"/>
+		</par>
+	</body>
+</smil>

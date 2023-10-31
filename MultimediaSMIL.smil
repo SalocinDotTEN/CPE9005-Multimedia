@@ -1,0 +1,30 @@
+<smil>
+	<head>
+		<meta name="title" content="Multimedia Technologies Showreel 1" />
+		<meta name="author" content="Nicolas.NET International." />
+		<meta name="copyright" content="©2005" />
+		<layout>
+			<root-layout background-color="black" width="400" height="500"/>
+			<region id="Ticker" left="0" top="350" height="50" width="500" background-color="black" fit="hidden" z-index="1"/>
+			<region id="Video" left="0" top="0" height="400" width="500" background-color="black" fit="hidden" z-index="0"/>
+			<regPoint id="Centre" regAlign="center" left="50%" top="50%"/>
+			<transition id="FadeIN" type="fade" subtype="fadeFromColor" fadeColor="black" dur="3s"/>
+			<transition id="FadeOUT" type="fade" subtype="fadeToColor" fadeColor="black" dur="3s"/>
+		</layout>
+	</head>
+	<body>
+		<par>
+			<textstream src="MMTicker.rt" region="Ticker"/>
+			<textstream src="MultimediaST1.rm"/>
+			<textstream src="SurroundInsignia.rt" transIn="FadeIN" transOut="FadeOUT" region="Video" regPoint="Centre"/>
+			<textstream src="MultimediaST2.rm" begin="15s"/>
+			<textstream src="MMRealPixShow.rp" begin="10s" region="Video" regPoint="Centre"/>
+			<a href="http://nic-dot-net.deviantart.com" alt="Click to get to the electronic portfolio!" external="true" sourcePlaystate="pause">
+				<textstream src="RealVideo01.rm" begin="60s" region="Video" regPoint="Centre"/>
+			</a>
+			<textstream src="RealVideo02.rm" begin="90s" region="Video" regPoint="Centre">
+			  <anchor href="http://hopebrisbane.com/web/" shape="rect" coords="0,0,100%,100%" begin="20s" end="30s" external="true" rn:sendTo="_osdefaultbrowser" sourcePlaystate="pause" alt="Click here to head to our client's site."/>
+			</textstream>
+		</par>
+	</body>
+</smil>
